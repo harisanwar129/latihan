@@ -1,9 +1,14 @@
-<mat-toolbar>
-    <span>Halo Dunia Kita Sedang Belajar {{ teks }}</span>
+<p>
+<mat-toolbar color="primary">
+    <span>Personal Web</span>
   </mat-toolbar>
+</p>
+  <button mat-flat-button router-link="about">About</button>
+  <button mat-flat-button router-link="contact">Contact</button>
+  <button mat-flat-button router-link="portfolio">Portfolio</button>
+  <mat-card color="primary">Simple card</mat-card>
 
-<button routerLink="/about">About</button>
-<button routerLink="/kontak">Kontak Kami</button>
 <router-outlet></router-outlet>
+
 
 
